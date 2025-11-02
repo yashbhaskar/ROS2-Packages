@@ -8,31 +8,31 @@ This repository contains two simple ROS 2 packages — one written in **C++** an
 ### C++ Package
 
 ├── simple_pkg_cpp/
-  ├── CMakeLists.txt
-  ├── package.xml
-  └── src/
-  │ ├── pub.py                        # publisher node
-  │ └── sub.py                        # subscriber node
-  └── include/
-  ├── scripts/                        
-  │ └── simple.cpp                    # cpp script
-  └── launch/                         # launch folder
+| ├── CMakeLists.txt
+| ├── package.xml
+| └── src/
+| │ ├── pub.py                        # publisher node
+| │ └── sub.py                        # subscriber node
+| └── include/
+| ├── scripts/                        
+| │ └── simple.cpp                    # cpp script
+| └── launch/                         # launch folder
 
 ### Python Package
 
 ├── simple_pkg_python/
-  ├── setup.py
-  ├── package.xml
-  ├── simple_pkg_python/
-  │ ├── init.py
-  │ ├── pub.py                        # publisher node
-  │ └── sub.py                        # subscriber node
-  └── resource/
-  │ └── simple_pkg_python
-  ├── scripts/                        
-  │ └── simple.py                     # python script
-  └── launch/
-    └── main.launch.py                # launch file
+| ├── setup.py
+| ├── package.xml
+| ├── simple_pkg_python/
+| │ ├── init.py
+| │ ├── pub.py                        # publisher node
+| │ └── sub.py                        # subscriber node
+| └── resource/
+| │ └── simple_pkg_python
+| ├── scripts/                        
+| │ └── simple.py                     # python script
+| └── launch/
+|   └── main.launch.py                # launch file
 
 ---
 
