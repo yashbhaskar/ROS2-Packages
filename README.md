@@ -6,7 +6,7 @@ This repository contains two simple ROS 2 packages — one written in **C++** an
 ## Repository Structure
 
 ### C++ Package
-
+```
 ├── simple_pkg_cpp/
 | ├── CMakeLists.txt
 | ├── package.xml
@@ -33,7 +33,7 @@ This repository contains two simple ROS 2 packages — one written in **C++** an
 | │ └── simple.py                     # python script
 | └── launch/
 |   └── main.launch.py                # launch file
-
+```
 ---
 
 ##  Package Overview 
