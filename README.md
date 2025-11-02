@@ -17,9 +17,11 @@ This repository contains two simple ROS 2 packages — one written in **C++** an
   ├── scripts/                        
   │ └── simple.cpp                    # cpp script
   └── launch/                         # launch folder
+```
 
 ### Python Package
 
+```
 ├── simple_pkg_python/
   ├── setup.py
   ├── package.xml
